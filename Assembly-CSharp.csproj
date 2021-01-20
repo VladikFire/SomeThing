@@ -64,6 +64,7 @@
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Scripts\CharacterController\PlayerInputHandler.cs" />
     <Compile Include="Assets\Scripts\CharacterController\CameraCollision.cs" />
+    <Compile Include="Assets\Art\Shaders\09 Scripts\FV_Wind.cs" />
     <Compile Include="Assets\Scripts\Buncker\bunckerDoorActivation.cs" />
     <Compile Include="Assets\Scripts\CharacterController\GameFlowManager.cs" />
     <Compile Include="Assets\Scripts\CharacterController\Target.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\OmniSARTechnologies\LiteFPSCounter\Demo\Scripts\SimpleSceneSwitcher.cs" />
     <Compile Include="Assets\OmniSARTechnologies\Common\Helper\GUI\ColorHelper.cs" />
     <Compile Include="Assets\OmniSARTechnologies\LiteFPSCounter\Scripts\LiteFPSCounter.cs" />
+    <Compile Include="Assets\Art\Shaders\09 Scripts\FV_BranchRotation.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Scripts\CharacterController\ThirdPersonCameraControl.cs" />
     <Compile Include="Assets\OmniSARTechnologies\LiteFPSCounter\Demo\Scripts\HeavyRenderingController.cs" />
@@ -85,13 +87,56 @@
     <Compile Include="Assets\Scripts\CharacterController\PlayerCharacterController.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Art\Shaders\Firefly.shader" />
+     <None Include="Assets\Art\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
      <None Include="Assets\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+     <None Include="Assets\Art\Shaders\Alien.shader" />
+     <None Include="Assets\Art\Shaders\Water.shader" />
+     <None Include="Assets\Art\Shaders\UnityStandardParticleShadow.cginc" />
+     <None Include="Assets\Art\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
+     <None Include="Assets\Art\Shaders\Acid.shader" />
+     <None Include="Assets\Art\Shaders\UnityStandardParticles.cginc" />
+     <None Include="Assets\Art\Shaders\AlienMetal.shader" />
+     <None Include="Assets\Art\Shaders\CollectShadowWaterCustom.shader" />
      <None Include="Assets\OmniSARTechnologies\LiteFPSCounter\Demo\Shaders\HeavyRenderingTest.shader" />
+     <None Include="Assets\Art\Shaders\WaterX.shader" />
+     <None Include="Assets\Art\Shaders\Rock.shader" />
+     <None Include="Assets\Art\Shaders\EyeLash.shader" />
+     <None Include="Assets\Art\Shaders\Shadows.cginc" />
+     <None Include="Assets\Art\Shaders\Translucency.shader" />
+     <None Include="Assets\Art\Shaders\Vegetation.shader" />
+     <None Include="Assets\Art\Shaders\MirrorWater.shader" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\Art\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
+     <None Include="Assets\Art\Shaders\GroundCover.shader" />
+     <None Include="Assets\Art\Shaders\Vegetable_CNSSS.shader" />
+     <None Include="Assets\Art\Shaders\StandardCutout.shader" />
+     <None Include="Assets\Art\Shaders\BubbleBurst.shader" />
+     <None Include="Assets\Art\Shaders\Terrain.shader" />
      <None Include="Assets\Features\AxelF\Native\XB1\AudioPluginAxelF.dll" />
+     <None Include="Assets\Art\Shaders\GroundFog.shader" />
+     <None Include="Assets\Art\Shaders\EyeShader\Shaders\EyeBallsHD.shader" />
+     <None Include="Assets\Art\Shaders\EyeShader\README.txt" />
+     <None Include="Assets\Art\Shaders\Double Sided Shaders\Double Sided Standard Diffuse Bump.shader" />
+     <None Include="Assets\Art\Shaders\Stonework.shader" />
+     <None Include="Assets\Art\Shaders\FrostedGlass.shader" />
+     <None Include="Assets\Art\Shaders\WaterShadow.shader" />
+     <None Include="Assets\Art\Shaders\Swish.shader" />
+     <None Include="Assets\Art\Shaders\EnergyCore.shader" />
+     <None Include="Assets\Art\Shaders\DepthOnly.shader" />
+     <None Include="Assets\Art\Shaders\Respawn.shader" />
+     <None Include="Assets\Art\Shaders\SculptedHair.shader" />
+     <None Include="Assets\Art\Shaders\09 Scripts\FV_Foliage.shader" />
+     <None Include="Assets\Art\Shaders\My Shaders\NewSurfaceShader.shader" />
+     <None Include="Assets\Art\UnityHDRI\Gareoult\Info.txt" />
      <None Include="Assets\Features\AxelF\Native\Win32\AudioPluginAxelF.dll" />
+     <None Include="Assets\Art\Shaders\Shield.shader" />
+     <None Include="Assets\Art\Shaders\ToonSkin.shader" />
      <None Include="Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Features\AxelF\VERSION.txt" />
+     <None Include="Assets\Art\Shaders\StandardAlphaFade.shader" />
+     <None Include="Assets\Art\Shaders\Dissolve.shader" />
+     <None Include="Assets\Art\Shaders\SimpleSky.shader" />
     <Reference Include="UnityEngine">
       <HintPath>H:\_Vladik\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

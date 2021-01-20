@@ -43,12 +43,12 @@ public class Parcur : MonoBehaviour
         {
             float y = transform.rotation.eulerAngles.y;
             transform.rotation = Quaternion.Euler(0f, y, 0f);
-            if (1.75f - m_Hit.distance >= 0.1999999 && 1.75f - m_Hit.distance <= 0.40001)
+            if (_controller.height- m_Hit.distance >= 0.1999999 && 1.75f - m_Hit.distance <= 0.40001)
             {
                 _canJump = false;
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    float blendK = 1.75f - m_Hit.distance;
+                    float blendK = _controller.height - m_Hit.distance;
                     _controller.enabled = false;
                     _animator.applyRootMotion = true;
                     _animator.SetFloat("Vec", blendK);

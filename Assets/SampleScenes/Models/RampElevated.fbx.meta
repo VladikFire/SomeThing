@@ -18,12 +18,7 @@ ModelImporter:
   - first:
       43: 4300000
     second: RampElevated
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WhiteSmooth
-    second: {fileID: 2100000, guid: 616853845a4a54949ac851f2f807aa2a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 1
@@ -79,7 +74,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
+    secondaryUVMarginMethod: 0
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -117,6 +112,6 @@ ModelImporter:
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
-  userData: ClipVersion=3,
+  userData: ClipVersion=1,
   assetBundleName: 
   assetBundleVariant: 
